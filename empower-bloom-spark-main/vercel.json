@@ -1,9 +1,8 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".output/public",
+  "outputDirectory": "dist/client",
   "framework": "vite",
-  "serverlessFunctionRegion": "iad1",
-  "redirects": [
+  "rewrites": [
     {
       "source": "/:path*",
       "destination": "/index.html"
